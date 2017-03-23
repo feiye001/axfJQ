@@ -1,0 +1,207 @@
+@charset "utf-8";
+/*body{background-color: #efefef;}*/
+/*mine_header*/
+#mine_h{
+	width: 100%;
+	height: 1.2rem;
+	background-color: #ffd600;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+#mine_h .mine_logo{
+	background: url(../src/assets/mine_logo.png) no-repeat center;
+	width: 0.73rem;
+	height: 0.73rem;
+	background-size: contain;
+	position: absolute;
+	top: 0.234376rem;
+	left: 0.175782rem;
+}
+#mine_h .mine_info{
+	position: absolute;
+	left: 1.054692rem;
+	top: 0.234376rem;
+	height: 0.73rem;
+}
+#mine_h .mine_tel{
+	height: 45%;
+	line-height:0.3285rem;
+	color: #fff;
+	font-size: 0.175782rem;
+	font-weight: 700;
+}
+#mine_h .mine_rank{
+	height: 55%;
+	line-height:0.4015rem;
+	font-weight: 700;
+	font-size: 0.117188rem;
+	color: #e64f1a;
+	padding-left: 0.36rem;
+	background: url(../src/assets/mine_rank.png) no-repeat left center;
+	background-size: contain;
+}
+#mine_h .mine_right{
+	width: 0.1379rem;
+	height: 0.228rem;
+	position: absolute;
+	background: url(../src/assets/mine_right.png) no-repeat;
+	background-size: contain;
+	top: 40%;
+	right:0.234376rem; 
+}
+/*mine_wrap*/
+#mine_wrap{
+	width: 100%;
+	height: 0.42rem;
+	position: fixed;
+	top: 1.2rem;
+	left: 0;
+	background-color: #f3cb00;
+}
+#mine_wrap a{
+	display: block;
+	float: left;
+	box-sizing:border-box;
+	width: 50%;
+	height:60%;
+	line-height: 0.252rem;
+	color: #fff;
+	font-size: 0.1406256rem;
+	margin-top: 0.084rem;
+}
+#mine_wrap a span{
+	display: block;width: 0.9225rem;
+	height: 0.24rem;
+	margin: 0 auto;
+	text-align: right;
+}
+#mine_wrap a.mine_w_good{
+	border-right:1px solid #fff;
+}
+#mine_wrap a.mine_w_good span{
+	background: url(../src/assets/mine_good.png) no-repeat left center;
+	background-size: contain;
+}
+#mine_wrap a.mine_w_store span{
+	background: url(../src/assets/mine_store.png) no-repeat left center;
+	background-size: contain;
+}
+
+/*contain*/
+#mine_con{
+	width: 100%;
+	position: absolute;
+	top: 1.62rem;
+	left: 0;
+}
+/*order*/
+#order{
+	width: 100%;
+	margin: 0.117188rem 0;
+	background-color: #fff;
+}
+#order a.order_mine{
+	display: block;
+	width: 100%;
+	height: 0.586rem;
+	border-bottom: 1px solid #e0e0e0;
+	padding:0 0.175782rem;
+	box-sizing:border-box;
+	background: url(../src/assets/order_right.png) no-repeat right center;
+	background-size: auto 0.1640632rem;
+}
+#order a.order_mine .order_mine_l{
+	color: #333;
+	font-size: 0.1640632rem;
+	display: block;
+	float: left;
+	height: 100%;
+	line-height: 0.586rem;
+}
+#order a.order_mine .order_mine_r{
+	color: #999;
+	font-size: 0.1640632rem;
+	display: block;
+	float: right;
+	height: 100%;
+	line-height: 0.586rem;
+	padding-right: 0.2rem;
+}
+#order .order_kind{
+	width: 100%;
+	height: 0.8475rem;
+}
+#order .order_kind a{
+	display: block;
+	float: left;
+	width: 25%;
+	height: 100%;
+	padding-top: 0.4975rem;
+	box-sizing:border-box;
+}
+#order .order_kind a p{
+	color: #333;
+	font-size: 0.1406256rem;
+	text-align: center;
+	height:0.35rem;
+	line-height: 0.35rem;
+}
+#order .order_kind a.pay{
+	background: url(../src/assets/order_kind1.png) no-repeat center 40%;
+	background-size: auto 25%;
+}
+#order .order_kind a.get{
+	background: url(../src/assets/order_kind2.png) no-repeat center 40%;
+	background-size: auto 25%;
+}
+#order .order_kind a.eval{
+	background: url(../src/assets/order_kind3.png) no-repeat center 40%;
+	background-size: auto 25%;
+}
+#order .order_kind a.refund{
+	background: url(../src/assets/order_kind4.png) no-repeat center 40%;
+	background-size: auto 25%;
+}
+/*other*/
+#other{
+	width: 100%;
+	background-color: #fff;
+}
+#other div{
+	width: 100%;
+	height: 1.2rem;
+	border-bottom: 1px solid #e0e0e0;}
+#other div a{
+	width: 25%;
+	height: 100%;
+	display: block;
+	float:left;
+	box-sizing:border-box;
+	text-align: center;
+	color: #333;
+	font-size: 0.1406256rem;
+	padding-top: 0.703128rem;
+	line-height: 0.24rem;
+}
+#other div a.other01{
+	background: url(../src/assets/mine_other01.png) no-repeat center 0.35rem;
+	background-size: 0.35rem;
+}
+#other div a.other02{
+	background: url(../src/assets/mine_other02.png) no-repeat center 0.35rem;
+	background-size: 0.35rem;
+}
+#other div a.other03{
+	background: url(../src/assets/mine_other03.png) no-repeat center 0.35rem;
+	background-size: 0.35rem;
+}
+#other div a.other04{
+	background: url(../src/assets/mine_other04.png) no-repeat center 0.35rem;
+	background-size: 0.35rem;
+}
+#other div a.other05{
+	background: url(../src/assets/mine_other05.png) no-repeat center 0.35rem;
+	background-size: 0.35rem;
+}
